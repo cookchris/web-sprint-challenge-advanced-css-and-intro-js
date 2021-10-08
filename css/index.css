@@ -97,7 +97,7 @@ nav span{
     justify-content: center;
     align-items: center;
     height:60vh;
-    margin:5% 0;
+    margin:3% 0;
 }	
 .title-container div:hover {	
     opacity: 80%;	
@@ -155,14 +155,19 @@ button:hover{
     }
     
     .artist, .bio{
-        padding: 5%;
+        width: fit-content;
+        margin-top: 4%;
+
         
     }
-
-    .title-container{
-        margin: 0 auto;
-        padding: 0;
+    
+    nav {
+        justify-content: space-between;
+        padding 4rem;
     }
 
+    .title-container div{
+        width: 100%;
+    }
 }
     

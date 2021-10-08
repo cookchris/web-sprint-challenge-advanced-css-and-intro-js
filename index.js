@@ -1,3 +1,5 @@
+const { logicalExpression, isParenthesizedExpression } = require("@babel/types");
+
 const artists = [
   {
     "id": 0,
@@ -245,10 +247,12 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s(array) {
-  
+  for let (i=0; i<artists.lengt; i++){
+    return artists.name
+  }
 }
 
-
+console.log(get20s(artist.name));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use removeArtist to do the following:
@@ -282,11 +286,20 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(artists) {
+  const newInfo {
+    id:20,
+    name:Chris, 
+    years: 1998-Oct 8th
+    genre:web design
+    nationality:American
+    bio: 'form michigan and loves to listen to music'
+
+  }
+  addArtist.push(newInfo);
 }
 
-
+console.log(addArtist(artists));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
